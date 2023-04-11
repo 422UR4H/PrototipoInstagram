@@ -1,0 +1,89 @@
+@media (max-width: 935px) {
+  .side-bar {
+    display: none;
+  }
+
+  .content {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 614px) {
+  .desktop-content {
+    margin-top: 55px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .logo-insta {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .mobile {
+    display: inline;
+  }
+
+  .stories {
+    background-color: #fafafa;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-right: 6px;
+    border: inherit;
+    justify-content: space-around;
+  }
+
+  .stories img:last-child {
+    display: none;
+  }
+
+  /* olhar as unidades de medida variáveis de fontes */
+
+  .post {
+    width: 100%;
+    border: inherit;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 0px;
+  }
+
+  .post > img {
+    width: 100%;
+  }
+
+  .bottom-bar {
+    display: inline;
+  }
+}
+
+@media (max-width: 570px) {
+  .stories div:nth-child(7) {
+    display: none;
+  }
+}
+
+@media (max-width: 495px) {
+  .stories div:nth-child(6) {
+    display: none;
+  }
+}
+
+@media (max-width: 410px) {
+  .stories div:nth-child(5) {
+    display: none;
+  }
+}
